@@ -33,7 +33,6 @@ The data processing workflow follows a distributed pipeline:
 ## Dataset
 This project uses the Yelp Open Dataset, which includes business, user, and review data.
 Only the structured Yelp dataset is used for analysis.
-Due to size and licensing constraints, the raw data is not included in this repository.
 
 Dataset download instructions are provided in `data/README.md`.
 
