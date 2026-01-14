@@ -58,12 +58,6 @@ Detailed setup and verification steps for Hadoop, Spark, and PySpark are documen
 
 `config/spark_hadoop_setup.md`
 
-## Engineering Challenges & Learnings
-- Handling large semi-structured JSON datasets
-- Optimizing Spark SQL queries for performance
-- Managing distributed aggregations efficiently
-- Understanding trade-offs between local and distributed execution
-
 ## Results Summary
 The analysis demonstrates how distributed data processing frameworks can efficiently support large-scale analytics.
 Insights at both the business and user levels highlight the value of scalable data pipelines for analytical workloads.
