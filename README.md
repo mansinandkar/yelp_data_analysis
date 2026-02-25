@@ -10,7 +10,6 @@ This project implements a distributed ETL and analytics pipeline on the Yelp Ope
 
 The system performs distributed ingestion, transformation, aggregation, and analytical querying to extract scalable business and user-level insights.
 
-
 ## Problem Statement
 Yelp generates high-volume, semi-structured data containing business metadata, user profiles, and reviews.
 Processing this data on a single machine is inefficient and does not scale.
@@ -60,8 +59,6 @@ Detailed setup and verification steps for Hadoop, Spark, and PySpark are documen
 
 `config/spark_hadoop_setup.md`
 
----
-
 ## Key Engineering Components
 
 ### 1. Distributed Data Ingestion
@@ -86,8 +83,6 @@ Implemented Spark SQL queries to compute:
 - Reduced computation overhead through SQL optimization
 - Processed multi-million records efficiently across cluster execution
 
----
-
 ## Analytical Insights
 
 ### User-Level Insights
@@ -99,8 +94,6 @@ Implemented Spark SQL queries to compute:
 - 30.5% of salons categorized under Beauty & Spas
 - High-performing postal codes identified (85704, 85712)
 - Strong correlation between engagement and ratings
-
----
 
 ## Key Takeaways / Skills Demonstrated
 
