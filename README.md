@@ -16,11 +16,15 @@ Processing this data on a single machine is inefficient and does not scale.
 This project demonstrates how distributed systems can be used to process, transform, and analyze such data efficiently.
 
 ## Architecture Overview
+
+<img width="304" height="694" alt="Archietecture" src="https://github.com/user-attachments/assets/56150ded-f506-42e6-86e5-00e0f760826b" />
+
 The data processing workflow follows a distributed pipeline:
 - Yelp JSON files are stored in HDFS
 - Data is filtered and transformed using Spark SQL
 - Columnar formats are used for optimized querying
 - Aggregated results are analyzed using PySpark
+  
 
 ## Tech Stack
 - **Languages:** Python (PySpark), SQL
